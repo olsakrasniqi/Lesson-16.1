@@ -1,0 +1,23 @@
+div[id^=ds] {
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+img[title^="blue"] {
+    border: 2px solid rgb(1, 25, 68);
+}
+
+h1[class|=heading] {
+    background: rgb(187, 81, 98) ;
+    padding: 20px;
+    color: white;
+}
+
+input[placeholder$="name"] {
+    border: 2px solid blue;
+}
+
+input[read-only]{
+    border: 2px solid green;
+}
